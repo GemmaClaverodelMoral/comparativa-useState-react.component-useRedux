@@ -11,26 +11,26 @@ Se va a probar con hook y con clases en paralelo para ver las similitures y dife
 Caracteristicas de los estados en clases comparados con react hooks.
 Para saber que se puede seguir usando en estados complejos y declarativos usando Redux.
 
-01- Props   vs. objeto de estados
-02- Efectos vs. ciclos de vida de las clases 
+- 01- Props   vs. objeto de estados
+- 02- Efectos vs. ciclos de vida de las clases 
 (con los metodos del ciclo de vida: 
     - ComponentWillMount (se renderizara en el futuro), 
     - ComponentWillUnmount (ya se desrenderizó en el pasado), 
     - ComponentDidMount (se renderizó en el pasado))
     - ComponentUpdate (se renderiza en cualquie cambio del estado excepto la carga inicial)
-03- Estados independientes vs. estados en un mismo objeto
-04- Estados compuestos con React.useState cuando el valor de un estado cambia otros estados. Se van todos paseando juntitos en un objeto . 
+- 03- Estados independientes vs. estados en un mismo objeto
+- 04- Estados compuestos con React.useState cuando el valor de un estado cambia otros estados. Se van todos paseando juntitos en un objeto . 
     - No olvidar al cambiar el estado que se hace asi:
     {...state
     setState({ atrubutoquecambia: nuevo_valor})
     }
-05- Estados Imperativos vs. declarativos.
+- 05- Estados Imperativos vs. declarativos.
     - imperativos: Definiendo el valor de cada uno de los estados
     - semiDeclarativos: Abrtrayendo el codigo de cambio de estado a métodos con nombres bien descriptivos y asi volver mas lejible el codigo
-06- Estados Declarativos con reducer
+- 06- Estados Declarativos con reducer
     - requiere que todos los estados esten compuestos en un objeto y metodos/acciones. Action Type y Action payload.
-07- uso de dispatch (para enviar acciones de cambio de estado al store de Redux que se haya creado actualizando el estado de la aplicación.)
-08- uso de actionTypes (para evitar errores de escritura de strings no detectadas por el compilador)
+- 07- uso de dispatch (para enviar acciones de cambio de estado al store de Redux que se haya creado actualizando el estado de la aplicación.)
+- 08- uso de actionTypes (para evitar errores de escritura de strings no detectadas por el compilador)
 
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

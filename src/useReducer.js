@@ -53,7 +53,7 @@ const reducerObject = (state, playLoad) => ({
     }
 })
 
-const reducer = (state, action) => {
+function reducer (state, action) {
     if (reducerObject(state)[action.type]) {
         return reducerObject(state, action.playLoad)[action.type]
     } else {

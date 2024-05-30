@@ -14,7 +14,7 @@ class PruebaClassState extends React.Component {
     }}
 
     componentDidUpdate() { //Se ejecuta cada vez que se actualiza el estado
-   
+       
         if (!!this.state.loading) { //para que no ejecute la carga en cada actualizacion
             setTimeout(() => {
               
@@ -34,10 +34,13 @@ class PruebaClassState extends React.Component {
             <div>
                 <h2>Validación de Acción X usando { this.props.name }</h2>
                 <p>Por favor ingresa el código de seguridad</p>
-                <p>Puedes ingresarlo bien, mal, confirmar la acción y deshacer la acción</p>
+                <p>Puedes ingresarlo bien o mal. Solo avisa de error en caso de codigo incorrecto</p>
 
                 {(error && !loading) && (
                     <p>Error: El código ingresado es incorrecto</p>
+                )}
+                 {(!error && !loading) && (
+                    <p>El código ingresado es Correcto</p>
                 )}
                 {loading && (
                     < Loading />

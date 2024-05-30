@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/comparativa-useState-react.component-useRedux/static/css/main.f855e6bc.css",
+    "main.js": "/comparativa-useState-react.component-useRedux/static/js/main.ccd52a44.js",
+    "index.html": "/comparativa-useState-react.component-useRedux/index.html",
+    "main.f855e6bc.css.map": "/comparativa-useState-react.component-useRedux/static/css/main.f855e6bc.css.map",
+    "main.ccd52a44.js.map": "/comparativa-useState-react.component-useRedux/static/js/main.ccd52a44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.ccd52a44.js"
+  ]
+}

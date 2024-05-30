@@ -1,15 +1,16 @@
 # PRACTICA DE MANEJO DE CLAVES Iterando formato De React Hooks o con Clases con React Content
 # comparativa-useState-react.component-useRedux
 
+https://gemmaclaverodelmoral.github.io/comparativa-useState-react.component-useRedux/
+
 Proyecto de codigos de seguridad donde se debe poder pedir un codigo de seguridad para
 confirmar poder hacer la accion.
 Pide codigo. Bien o mal
 Pide confirmacion . Si o no
 Y se hace la accion tener un undo para recuperar el estado anterior.
 
-Se va a probar con hook y con clases en paralelo para ver las similitures y diferencias
-Caracteristicas de los estados en clases comparados con react hooks.
-Para saber que se puede seguir usando en estados complejos y declarativos usando Redux.
+Se va a probar con los hooks React.useState y React.useReduce y con clases usando React.Component en la misma pantalla en paralelo para practicar las similitures y diferencias
+Caracteristicas de los estados en clases comparados con react hooks y para practicar como se pueden seguir estados complejos y declarativos usando Reduce.
 
 - 01- Props   vs. objeto de estados
 - 02- Efectos vs. ciclos de vida de las clases 

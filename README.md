@@ -1,6 +1,8 @@
 # PRACTICA DE MANEJO DE CLAVES Iterando formato De React Hooks o con Clases con React Content
 # comparativa-useState-react.component-useRedux
 
+https://gemmaclaverodelmoral.github.io/comparativa-useState-react.component-useRedux/
+
 Proyecto de codigos de seguridad donde se debe poder pedir un codigo de seguridad para
 confirmar poder hacer la accion.
 Pide codigo. Bien o mal
